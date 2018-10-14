@@ -121,6 +121,16 @@ imageTests+=(
 		mysql-basics
 		mysql-initdb
 		mysql-log-bin
+		mysql-onetime-password
+		mysql-random-password
+		mysql-root-host
+		mysql-skip-tzinfo
+		mysql-want-help
+		mysql-datadir1
+		mysql-datadir2
+		mysql-check-config
+		mysql-ssl-setup
+		mysql-file-env
 	'
 	[node]='
 		node-hello-world
