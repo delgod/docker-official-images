@@ -44,5 +44,5 @@ mysql() {
 
 . "$dir/../../retry.sh" --tries 20 "echo 'SELECT 1' | mysql"
 
-docker exec "$cname" ls /tmp/mysql/dir \
+docker exec "$cname" ls "/tmp/mysql dir with spaces" \
 	| grep -q "^mysql$"

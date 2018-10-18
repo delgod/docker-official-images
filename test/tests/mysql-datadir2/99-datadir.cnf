@@ -1,2 +1,2 @@
 [mysqld]
-datadir = /tmp/mysql/dir
+datadir = /tmp/mysql dir with spaces
