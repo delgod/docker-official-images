@@ -147,6 +147,8 @@ imageTests+=(
 		open-liberty-hello-world
 	'
 	[percona]='
+		percona-tokudb
+		percona-rocksdb
 	'
 	[perl]='
 		perl-hello-world
