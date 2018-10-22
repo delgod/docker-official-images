@@ -1,20 +1,18 @@
-# this file is generated via https://github.com/docker-library/percona/blob/2bc351a6c89c243851efc828d7ec19a21663df80/generate-stackbrew-library.sh
+Maintainers: Evgeniy Patlan <evgeniy.patlan@percona.com> (@EvgeniyPatlan),
+             Mykola Marzhan <mykola.marzhan@percona.com> (@delgod)
+GitRepo: https://github.com/percona/percona-docker.git
 
-Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
-             Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
-GitRepo: https://github.com/docker-library/percona.git
-
-Tags: 5.7.23-stretch, 5.7-stretch, 5-stretch, stretch, 5.7.23, 5.7, 5, latest
+Tags: 8.0.23-centos, 8.0-centos, 8-centos, 8.0.23, 8.0, 8
 Architectures: amd64
-GitCommit: 0f4b22adef232551c763308367d3b54d586a4a38
-Directory: 5.7
+GitCommit: f176d725d49b6c241263ea796eddb58f17e415f2
+Directory: percona-server.80
 
-Tags: 5.6.41-stretch, 5.6-stretch, 5.6.41, 5.6
+Tags: 5.7.23-centos, 5.7-centos, 5-centos, centos, 5.7.23, 5.7, 5, latest
 Architectures: amd64
-GitCommit: 0f4b22adef232551c763308367d3b54d586a4a38
-Directory: 5.6
+GitCommit: f176d725d49b6c241263ea796eddb58f17e415f2
+Directory: percona-server.57
 
-Tags: 5.5.61-stretch, 5.5-stretch, 5.5.61, 5.5
+Tags: 5.6.41-centos, 5.6-centos, 5.6.41, 5.6
 Architectures: amd64
-GitCommit: 0f4b22adef232551c763308367d3b54d586a4a38
-Directory: 5.5
+GitCommit: f176d725d49b6c241263ea796eddb58f17e415f2
+Directory: percona-server.56
